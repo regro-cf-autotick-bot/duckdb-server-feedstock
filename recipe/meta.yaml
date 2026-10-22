@@ -1,5 +1,5 @@
 {% set name = "duckdb-server" %}
-{% set version = "0.31.0" %}
+{% set version = "0.34.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/duckdb_server-{{ version }}.tar.gz
-  sha256: 69b7b4eea190b301ab15273beeb14caf9a9c87e1311f0baa29a8f5af334a6cbf
+  sha256: 70af4e14c7fad1eb483b8fd633d6a3c4c657919413c401707fcbdbe3c05857ff
 
 build:
   entry_points:
